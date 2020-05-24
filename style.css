@@ -337,6 +337,16 @@ body{
 .box5-card-img{
 	width: 100%;
 }
+.name{
+	margin-left: 150px;
+	position: absolute;
+	top: 350px;
+}
+.date{
+	margin-left: 140px;
+	position: absolute;
+	top: 550px;
+}
 .box5-card .date{
 	color: #ff0;
 	font-size: 30px;
@@ -396,9 +406,6 @@ body{
 	background-color: #974;
 	font-size: 35px;
 	border-radius: 5px;
-}
-#top-menu-right-btn:hover #tmrb-menu{
-	transform: translateY(0) scaleY(1);
 }
 #tmrb-menu{
 	position: absolute;
