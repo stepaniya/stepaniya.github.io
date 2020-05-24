@@ -241,6 +241,7 @@ body{
 	vertical-align: top;
 	display: inline-block;
 	text-align: left;
+	padding: 15px;
 }
 #box4-simple{
 	position: relative;
@@ -444,7 +445,7 @@ body{
 	transition-duration: 1s;
 	transition-property: box-shadow;
 	opacity: 0.5;
-	transition-property: transform,opacity;
+	transition-property: transform,opacity,box-shadow;
 }
 #box6 table img{
 	position: absolute;
@@ -452,7 +453,7 @@ body{
 	top: 0;
 	width: 100%;
 	transition-duration: 1s;
-	transition-property: transform;
+	transition-property: transform,box-shadow;
 }
 #box6 table th:hover{
 	box-shadow: 0 0 40px 10px #000;
