@@ -140,7 +140,7 @@ body{
 #up-btn{
 	position: absolute;
 	top: 10px;
-	right: 30px;
+	left: 20px;
 	height: 50px;
 	width: 50px;
 	border: solid #fff 5px;
