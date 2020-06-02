@@ -28,14 +28,20 @@ body{
 	transition-property: transform;
 	color: #fff;
 }
-#letter a{
+.text{
 	position: absolute;
 	color: #fff;
 	text-decoration: none;
+}
+#dianoid{
 	top:150px;
 	left:45%;
 }
-#letter a:hover{
+#margo{
+	top: 180px;
+	left: 45%;
+}
+.text:hover{
 	text-decoration: underline;
 	text-shadow: 0 0 20px #fff;
 }
