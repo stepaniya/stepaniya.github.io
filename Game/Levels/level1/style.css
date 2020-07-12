@@ -56,3 +56,11 @@ body{
 	z-index: 1000;
 	background-color: #fff;
 }
+Console_1{
+	top:100px;
+	left: 46%;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	z-index: 1000;
+}
