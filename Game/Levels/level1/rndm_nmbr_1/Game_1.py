@@ -13,16 +13,16 @@ def random_number():
                     if int(game_number) > bot_number:
                         print('Твоё число больше чем загадоное ')
                         game_popitci += 1
-                        print('Число попыток:', game_popitci)
+                        print('Число сделаных попыток:', game_popitci)
 
                     elif int(game_number) < bot_number:
                         print('Твоё число менше чем загадоное ')
                         game_popitci += 1
-                        print('Число попыток:', game_popitci)
+                        print('Число сделаных попыток:', game_popitci)
 
                     elif int(game_number) == bot_number:
                         print('Ты выиграл ')
-                        print('Число попыток:', game_popitci)
+                        print('Число сделаных попыток:', game_popitci)
                         game_popitci = 0
                         bot_number = random.randint(1, 25)
                         continue
@@ -30,14 +30,14 @@ def random_number():
                     if game_popitci == popitci:
                         print('Ты проиграл ')
                         print('Число бота:', bot_number)
-                        print('Число попыток:', game_popitci)
+                        print('Число сделаных попыток:', game_popitci)
                         game_popitci = 0
                         bot_number = random.randint(1, 25)
                         continue
                 else:
-                    print('Что ты ввел')
+                    print('Что ты ввёл')
             else:
-                print('Что ты ввел')
+                print('Что ты ввёл')
 
 
 
