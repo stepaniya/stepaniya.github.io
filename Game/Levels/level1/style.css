@@ -9,6 +9,7 @@ body{
 	left: 0;
 	top: -20px;
 	background-color: #fff;
+	transition-duration: 2s;
 }
 #hi{
 	position: absolute;
@@ -78,10 +79,37 @@ body{
 	border-radius: 50px;
 	text-decoration: none;
 	text-align: center;
+	transition-duration: 2s;
 }
 #list a{
 	color: #000;
 }
 #list a:hover #download{
 	text-decoration: underline;
+}
+#rules{
+	position: relative;
+	top: 100px;
+	left: 1400px;
+	width: 150px;
+	height: 80px;
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0 0 25px #fff;
+	border-radius: 50px;
+	text-align: center;
+	transition-duration: 2s;
+}
+#rulesp{
+	position: absolute;
+	top: 190px;
+	left: -100px;
+	width: 400px;
+	height: 280px;
+	display: none;
+	box-shadow: 0 0 25px #fff;
+	background-color: #fff;
+}
+#rules:hover #rulesp{
+	display: block;
 }
